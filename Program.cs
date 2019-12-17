@@ -14,11 +14,12 @@ namespace Part_7___Arrays_CSharp
             int evenCount = 0;
             //Q1 - Create Array
             int[] numbers = new int[30];
+
             //Q2 - Creates fills array with random values 1 - 100
             for (int i = 0; i < numbers.Length; i++)
                 numbers[i] = generator.Next(1, 101);
 
-            //Q3 - Display Contents
+            //Q3 - Display array contents
             Console.WriteLine("Q3 - Values in array:");
             for (int i = 0; i < numbers.Length; i++)
                 Console.Write(numbers[i] + " ");
